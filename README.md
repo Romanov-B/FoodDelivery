@@ -1,35 +1,37 @@
-***Disclaimer***
+## Disclaimer
 
 This is a rather old project made for the sake of proving that pure PHP website with complete control over DB using SQL queries is possible.
 Do note, that this approach requires manually writing SQL queries for every type of possible requiest, where most PHP frameworks would usually handle SQL queries by default.
 
-***How to launch***
+
+## How to launch
 
 1. Intall files into Apache folder (Make sure you have Apache server installed beforehand).
 2. Import database files ("Database4.accdb") to MySQL (This contains DB schema)
 3. Launch the Apache server
 
-***How to use***
+
+## How to use 
 
 The main page looks like this (Figure 1):
 
 <img width="647" height="304" alt="image" src="https://github.com/user-attachments/assets/cdfed92d-d28a-4e91-acdc-3fd100a4fabe" />
-Figure 1 – Main page view /
+Figure 1 – Main page view
 
 
-*For Regular Customer*
+### For Regular Customer
 
-To view the catalog of available products, select “Product Catalog” in the side menu bar. After that, a table describing all available products should be displayed on the screen (Figure 2).\
+To view the catalog of available products, select “Product Catalog” in the side menu bar. After that, a table describing all available products should be displayed on the screen (Figure 2).
 
 <img width="646" height="207" alt="image" src="https://github.com/user-attachments/assets/568e973d-0754-4d9a-8ba7-ef2ef4083749" />
 Figure 2 – Product Catalog View
 
-For the client to independently form an order, the options “Order” and “Products on order” are provided. To create an order, you must click on the “Order” button in the side menu and enter your contact details (Figure 3).\
+For the client to independently form an order, the options “Order” and “Products on order” are provided. To create an order, you must click on the “Order” button in the side menu and enter your contact details (Figure 3).
 
 <img width="610" height="495" alt="image" src="https://github.com/user-attachments/assets/e5fbaa78-3aec-423a-a313-4cf4f3513e11" />
 Figure 3 – Contact details form view
 
-After clicking on the “Send” button, the fields will be replaced with product parameters (Figure 4).\
+After clicking on the “Send” button, the fields will be replaced with product parameters (Figure 4).
 
 <img width="647" height="334" alt="image" src="https://github.com/user-attachments/assets/a174ce79-0a0e-4b86-b273-27b9dd349012" />
 Figure 4 – View of the form for adding a product to an order
@@ -42,7 +44,7 @@ Figure 5 – View of the list of products in the order
 After adding all products to the order, you can click the “Finish order creation” button on the product data form. After that, the order remains saved in the server database and can be viewed by employees.
 
 
-*For Employee*
+### For Employee
 
 To access the employee functionality, you must click the “For employees” button, which is located on the navigation bar at the top of the page. If the user is not authorized in the system, he must enter his login and password (Figure 6)
 
