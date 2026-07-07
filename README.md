@@ -1,7 +1,7 @@
 ## Disclaimer
 
 This is a rather old project made for the sake of proving that pure PHP website with complete control over DB using SQL queries is possible.
-Do note, that this approach requires manually writing SQL queries for every type of possible request, as well as preparing the DB schema in SQL, the where most PHP frameworks would usually handle both by default.
+Do note, that this approach requires manually writing SQL queries for every type of possible request, as well as preparing the DB schema in SQL, while most PHP frameworks would usually handle both by default.
 
 
 ## How to launch
