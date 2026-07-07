@@ -1,0 +1,112 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #a7a09a;
+    color: #000;
+}
+
+body {
+    min-width: 750px;
+}
+
+#wrap {
+    background: grey;
+    margin: 0 auto;
+}
+
+#header {
+    background: tomato;
+    color: #000;
+}
+
+#header h1 {
+    padding: 5px;
+    margin: 0;
+}
+
+#nav {
+    background: rgb(228, 228, 228);
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color : white;
+}
+
+#nav li a:hover
+{
+    background-color: rgb(70, 70, 70);
+}
+
+#main {
+    background: #9c9;
+    float: right;
+    width: 90%;
+    min-height: 76%;
+}
+
+#sidebar {
+    background: #99c;
+    float: left;
+    width: 10%;
+    position: fixed;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color : white;
+}
+
+#sidebar li a:hover
+{
+    background-color: rgb(70, 70, 70);
+}
+
+#footer {
+    background: #cc9;
+    clear: both;
+}
+
+
+a:link {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
