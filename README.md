@@ -14,7 +14,7 @@ Do note, that this approach requires manually writing SQL queries for every type
 The main page looks like this (Figure 1):
 
 <img width="647" height="304" alt="image" src="https://github.com/user-attachments/assets/cdfed92d-d28a-4e91-acdc-3fd100a4fabe" />
-Figure 1 – Main page view \
+Figure 1 – Main page view /
 
 
 *For Regular Customer*
