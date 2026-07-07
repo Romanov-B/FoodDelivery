@@ -16,6 +16,7 @@ The main page looks like this (Figure 1):
 <img width="647" height="304" alt="image" src="https://github.com/user-attachments/assets/cdfed92d-d28a-4e91-acdc-3fd100a4fabe" />
 Figure 1 – Main page view
 
+
 *For Regular Customer*
 
 To view the catalog of available products, select “Product Catalog” in the side menu bar. After that, a table describing all available products should be displayed on the screen (Figure 2).
@@ -39,6 +40,7 @@ After entering the product data and clicking the “Send” button, the product 
 Figure 5 – View of the list of products in the order
 
 After adding all products to the order, you can click the “Finish order creation” button on the product data form. After that, the order remains saved in the server database and can be viewed by employees.
+
 
 *For Employee*
 
